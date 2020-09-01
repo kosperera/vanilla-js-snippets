@@ -1,10 +1,10 @@
 # Vanilla JavaScript { snippets }
 
-[<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  />][js-topics]
+[<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  />][all-things-js]
 
-I'm a huge nerd :nerd_face: of vanilla javascript. I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things vanilla javascript.
+I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things vanilla javascript.
 
-### On This Repo
+### On this repo
 
 - Concatenate strings as C# `String.Format()`
 - Snake case strings an Lodash `_.snakeCase()`
@@ -21,4 +21,4 @@ If you were wondering, I'd be happy to have more code snippets here. Have a sugg
 
 Licensed under [MIT](LICENSE)
 
-[js-topics]: https://github.com/topics/javascript?l=javascript
+[all-things-js]: https://github.com/topics/javascript?l=javascript
