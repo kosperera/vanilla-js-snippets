@@ -1,6 +1,12 @@
 # Vanilla JavaScript { snippets }
 
-[<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  /><br><br>][js-topics]
+[<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  />][js-topics]
+
+### On This Repo
+
+- Concatenate strings as C# `String.Format()`
+- Snake case strings an Lodash `_.snakeCase()`
+- Allow both prototype and function options as Lodash `_.mixin()`
 
 I'm a huge nerd :nerd_face: of vanilla javascript. I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things vanilla javascript.
 
