@@ -1,6 +1,6 @@
-# Vanilla JS { snippets }
+# Vanilla JavaScript { snippets }
 
-I'm a huge nerd :nerdface: of Vanilla JavaScript. I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things of vanilla JS.
+I'm a huge nerd :nerdface: of vanilla javascript. I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things vanilla javascript.
 
 ## Contributing
 
