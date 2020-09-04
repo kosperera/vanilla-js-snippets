@@ -6,12 +6,12 @@ I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've bu
 
 ### On this repo
 
-- Concatenate strings as C# `String.Format()`
-- Snake case strings an Lodash `_.snakeCase()`
-- Allow both prototype and function options as Underscore String
-- Create `<script />` tag on the go to load javascript
-- `$` and `$$` aliases for DOM manipulation as jqLite
-- Perform action against DOM query selections as Protractor `elements()`
+- [Micro-library for manipulating DOM as angular's jqLite]($.mjs)
+- [Replaces strings based on the format specified as C# `String.Format()`](string-format.mjs)
+- [Style strings to 'snake_case' helper as Lodash `_.snakeCase()`](snake-case.mjs)
+- [Allow `prototype` option for helper function as `_.mixin()`](mixin.mjs)
+- [Create `<script>` tag passing params on the fly](script-tag-with-params.mjs)
+- [`$` aliases the `document.querySelectorAll()` helper for DOM manipulation]($sqa.mjs)
 
 ## Contributing
 
