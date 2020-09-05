@@ -9,7 +9,7 @@ I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've bu
 **On this repo**
 
 - `$qsa.js` is to alias the `document.querySelectorAll` to traverse thru DOM elements
-- `$.js` is a micro-library for manipulating DOM as angular's $q
+- `$.js` is a micro-library for manipulating DOM as angular's `$q`
 - `format-string.js` is to replace strings as C# `String.Format()`
 - `snake-case.js` is to style strings to 'snake_case' as Lodash `_.snakeCase()`
 - `mixin.js` is to allow `prototype` option for helper functions as Lodash `_.mixin()`
@@ -17,7 +17,16 @@ I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've bu
 
 ## Learning Resources
 
-#### Differences between `.call() and `.apply()`
+#### Documenting javascript
+
+- [How to document javascript with JSDoc](https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/) is a simple article that has the obvious examples
+
+#### Coding style
+
+- [Air bnb style guide for javascript (es5)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5) is deprecated for vanilla JS but still a good source of information
+- [Naming functions and the differences](https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname#336868) is a good explanation.
+
+#### Differences between `.call()` and `.apply()`
 
 - [`.apply()` requires input args as a single array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply#Description)
 - [Managing `arguments` in JavScript](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments) to learn about leaky arguments
