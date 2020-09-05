@@ -15,21 +15,36 @@ I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've bu
 - `mixin.js` is to allow `prototype` option for helper functions as Lodash `_.mixin()`
 - `script-data-src.js` is magic code to replace `<script>` tags with attribute `data-src` with new `HTMLScripElement`
 
-## Useful Articles
+## Learning Resources
+
+#### Differences between `.call() and `.apply()`
 
 - [`.apply()` requires input args as a single array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply#Description)
-- [Code snippet that allows both `prototype` and `function` options](https://code-examples.net/en/q/26ad93) from the `string.format` example
-- [Lodash `_.mixin`](https://lodash.com/docs/4.17.15#mixin) for the kinda [generic wrapper](https://github.com/lodash/lodash/blob/4.17/lodash.js#L15730) for both `prototype` and `function` options
-- [Creating and using namespace pattern and IIFE](https://www.dotnetforall.com/namespace-scoping-javascript/) explains how to properly expose the library to `global` namespace
-- [episode 22](https://www.youtube.com/watch?v=MVMsqBfUBNU) and [episode 23](https://www.youtube.com/watch?v=PXPO-lC-Y9s) on prototypes is a good start.
-- [Create your own utility libraries like Lodash and Underscore.js](https://gomakethings.com/creating-your-own-vanilla-js-helper-library-like-lodash-and-underscore.js/) for a walkthru with examples
-- [Create your own DOM manipulation library like jQuery](https://gomakethings.com/how-to-create-your-own-vanilla-js-dom-manipulation-library-like-jquery/) for replacing jQuery
-- [Use of C# like `String.Format` in vanilla JS](https://code-examples.net/en/q/26ad93) for various ways to write a helper function
 - [Managing `arguments` in JavScript](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments) to learn about leaky arguments
 - [`arguments` is not purely `Array` type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments#Description) is described on MDN spacification
+
+#### Using `prototype`
+- [Code snippet that allows both `prototype` and `function` options](https://code-examples.net/en/q/26ad93) from the `string.format` example
+- [episode 22](https://www.youtube.com/watch?v=MVMsqBfUBNU) and [episode 23](https://www.youtube.com/watch?v=PXPO-lC-Y9s) on prototypes is a good start.
+- [Use of C# like `String.Format` in vanilla JS](https://code-examples.net/en/q/26ad93) for various ways to write a helper function
+
+#### Building libraries as modules (`.mjs`)
+
 - [Serving vanilla JS libraries as modules (.mjs) on the web](https://v8.dev/features/modules#mjs) for full comparison of classic vs. modules
+
+#### Namespace and IIFE for JS libraries
+
+- [Creating and using namespace pattern and IIFE](https://www.dotnetforall.com/namespace-scoping-javascript/) explains how to properly expose the library to `global` namespace
 - [Namespace fundamentals when writing vanilla JS libraries](https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html) by O’Railly library
 - [Learning JavaScript - namespaces and scoping](https://www.dotnetforall.com/namespace-scoping-javascript/)
+
+#### Building JS micro-libraries
+
+- [Create your own utility libraries like Lodash and Underscore.js](https://gomakethings.com/creating-your-own-vanilla-js-helper-library-like-lodash-and-underscore.js/) for a walkthru with examples
+- [Create your own DOM manipulation library like jQuery](https://gomakethings.com/how-to-create-your-own-vanilla-js-dom-manipulation-library-like-jquery/) for replacing jQuery
+
+#### Testing performance
+
 - [Performance testing using `console.time()` and `console.endTime()`](https://gomakethings.com/how-to-test-vanilla-js-performance/) for helper functions
 
 ## Contributing
