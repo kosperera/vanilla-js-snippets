@@ -1,6 +1,5 @@
 /**
- * Micro-library for manipulating DOM as angular's jqLite.
- * 
+ * `$()` is a micro-library for manipulating DOM as angular's `$q`.
  * @param {Object|Window} ns - Namespace or the module as the root.
  * @param {Window} window - Global or browser instance.
  * @param {Document} document - DOM to manipulate.
@@ -8,17 +7,11 @@
  * @license MIT
  * 
  * @example
- * $('a').each(function(el) { el.addEventListener('input', console.log); });
- * 
- * @example
- * $(':invalid').addAttribute('aria-invalid', true);
- *
- * @example
- * $('a').addClass('is-visible');
- * 
- * @example
- * $('.highlight-source-js').hide().each(function(el) { console.log(el.attributes, el.classList); }).show();
- * 
+ * ```js
+ * $('.highlight-source-js')
+ *   .each(function(el) { console.log(el.innerHTML); })
+ *   .hide();
+ * ```
  */
 ; (function (ns, window, document, undefined) {
 

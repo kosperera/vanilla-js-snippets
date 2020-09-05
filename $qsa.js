@@ -1,7 +1,6 @@
 /**
- * `$` aliases the `document.querySelectorAll()` helper for DOM manipulation.
- * @see {@link $.mjs} to learn more about micro-library as angular's jqLite.
- * 
+ * `$()` is to alias the `document.querySelectorAll` to traverse thru DOM elements.
+ * @see {@link $.js} to learn more about micro-library as angular's jqLite.
  * @param {Window|Object} ns - Namespace or the module as the root.
  * @param {Window} window - Global or browser instance.
  * @param {Document} document - DOM to manipulate.
@@ -9,9 +8,12 @@
  * @license MIT
  *
  * @example
- * $('a').each(function(el) { el.addEventListener('input', console.log); });
- *
-*/
+ * ```js
+ * $('a').each(function(el) {
+ *   el.addEventListener('input', console.log);
+ * });
+ * ```
+ */
 ; (function (ns, window, document, undefined) {
 
     'use strict';

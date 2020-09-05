@@ -1,29 +1,19 @@
 /**
  * Allow `prototype` option for helper function as `_.mixin()`.
- * @see {@link snake-case.mjs} to learn more about creating helper functions in vanilla JS.
- * 
+ * @see {@link snake-case.js} to learn more about creating helper functions in vanilla JS.
  * @param {Object|Window} ns - Namespace or the module as the root.
  *
  * @license MIT
  * 
  * @example
- * String.prototype.format = _.mixin(_.format);
- * 
- * var GreetingTemplate = '{0} there! It's actually {1}';
- * GreetingTemplate.format('Hello', '/KP');
- * 
- * @example
- * _.mixin(_.format, String);
- *
- * var GreetingTemplate = '{0} there! It's actually {1}';
- * GreetingTemplate.format('Hello', '/KP');
- *
- * @example
+ * ```js
+ * String.prototype.toSnakeCase = _.mixin(_.snakeCase);
+ * // or
  * _.mixin(_.snakeCase, String, 'toSnakeCase');
- * 
- * var title = 'How to allow both function and prototype options'
- * title.toSnakeCase();
- * 
+ *
+ * // then use as
+ * some_string_variable.toSnakeCase();
+ * ```
  */
 ; (function (ns, undefined) {
 
@@ -77,4 +67,4 @@
         };
     })();
 
-})(window._ = window._ || _ || this);
+})(_ = _ || window._ || this);

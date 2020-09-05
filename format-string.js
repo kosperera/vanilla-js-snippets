@@ -1,26 +1,16 @@
 /**
- * Replaces strings based on the format specified as C# `String.Format()`.
- * @see {@link mixin.mjs} to learn about mixin helper functions with system types.
- * 
+ * `_.format()` is to replace strings as C# `String.Format()`.
+ * @see {@link mixin.js} to learn about mixin helper functions with system types.
  * @param {Object} ns - Namespace or the module as the root.
  * 
  * @license MIT
  *
  * @example
- * var GreetingTemplate = '{0} there! It's actually {1}';
- * _.format(GreetingTemplate, 'Hello', '/KP');
- * 
+ * ```js
+ * _.format('{0} there! It's actually {1}', 'Hello', '/KP');
  * // expected output: 'Hello there! It's actually /KP'
- * 
- * @example
- * _.mixin(_.format, String);
- *
- * var GreetingTemplate = '{0} there! It's actually {1}';
- * GreetingTemplate.format('Hello', '/KP');
- * 
- * // expected output: 'Hello there! It's actually /KP'
- *
-*/
+ * ```
+ */
 ; (function (ns, undefined) {
 
     'use strict';
@@ -59,4 +49,4 @@
         };
     })();
 
-})(window._ = window._ || _ || this);
+})(_ = _ || window._ || this);

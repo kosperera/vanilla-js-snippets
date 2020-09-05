@@ -1,26 +1,16 @@
 /**
  * Style strings to 'snake_case' helper as Lodash `_.snakeCase()`.
- * @see {@link mixin.mjs} to learn about mixin helper functions with system types.
- * 
+ * @see {@link mixin.js} to learn about mixin helper functions with system types.
  * @param {Object} ns - Namespace or the module as the root.
  * 
  * @license MIT
  *
  * @example
- * var title = 'BTW! WTF is snake case, dude?'
- * _.snakeCase(title);
- * 
- * // expected output: 'btw_wtf_is_snake_case_dude'
- *
- * @example
- * _.mixin(_.snakeCase, String, 'toSnakeCase');
- * 
- * var title = 'BTW! WTF is snake case, dude?'
- * title.toSnakeCase();
- * 
- * // expected output: 'btw_wtf_is_snake_case_dude'
- *
-*/
+ * ```js
+ * _.snakeCase('Library of vanilla JS snippets');
+ * // expected output: 'library_of_vanilla_js_snippets'
+ * ```
+ */
 ; (function (ns, undefined) {
 
     'use strict';
@@ -65,4 +55,4 @@
         };
     })();
 
-})(window._ = window._ || _ || this);
+})(_ = _ || window._ || this);
