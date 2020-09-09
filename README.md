@@ -2,7 +2,7 @@
 
 [<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  />][all-things-js]
 
-I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). This repository serves as a library of helper functions and boilerplate code written with native javascript and browser APIs instead of major frameworks and libraries.
+I'm a huge nerd :nerd_face: of [vanilla javascript (JS)][all-things-js]. This repository serves as a library of helper functions and boilerplate code written with native javascript and browser APIs instead of major frameworks and libraries.
 
 ### On this repo
 
@@ -24,21 +24,21 @@ If you were wondering, [ask questions and problems on GitHub][ama]. It is as eas
 
 Nowadays, vanilla javascript already cover most of it anyways. And, polyfills are there whenever some random feature doesn't support on the browser.
 
-- [You Don't Need Lodash and Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme) shows what vanilla javascript methods and techniques to use instead
-- [Financial Times polyfill repository](https://github.com/Financial-Times/polyfill-library) is good for polyfill code snippets
+- [You Don't Need Lodash and Underscore][learning-yagni-repo] shows what vanilla javascript methods and techniques to use instead
+- [Financial Times polyfill repository][learning-polyfills-repo] is good for polyfill code snippets
 
 ### A few crash courses
 
-- [Vanilla javascript crash courses](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) has 10+ videos on JS and DOM manipulation
-- [Documenting your javascript crash course](https://www.youtube.com/watch?v=YK-GurROGIg) demos on JSCode
-- [Scss crash course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
+- [Vanilla javascript crash courses][cc-vanilla-js] has 10+ videos on JS and DOM manipulation
+- [Documenting your javascript crash course][cc-jsdoc] demos on JSCode
+- [Scss crash course][cc-scss]
 
 ### A couple of more
 
-- [Node JS crash course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
-- [NPM crash course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
-- [Yarn package manager crash course](https://www.youtube.com/watch?v=g9_6KmiBISk)
-- [Gulp task runner crash course](https://www.youtube.com/watch?v=1rw9MfIleEg)
+- [Node JS crash course][cc-nodejs]
+- [NPM crash course][cc-npm]
+- [Yarn package manager crash course][cc-yarn]
+- [Gulp task runner crash course][cc-gulp]
 
 ## Contributing
 
@@ -52,6 +52,15 @@ Licensed under [MIT][lic]
 [all-things-js]: https://github.com/topics/javascript?l=javascript
 [ama]: https://github.com/kosalanuwan/ama/#readme
 [js-bliki]: https://kosalanuwan.github.io/bliki/#javascript
-[new-ssue]: https://github.com/kosalanuwan/vanilla-js-snippets/issues/new
+[new-issue]: https://github.com/kosalanuwan/vanilla-js-snippets/issues/new
 [openned-issues]: https://github.com/kosalanuwan/vanilla-js-snippets/issues
 [pull-requests]: https://github.com/kosalanuwan/vanilla-js-snippets/pulls
+[learning-yagni-repo]: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme
+[learning-polyfills-repo]: https://github.com/Financial-Times/polyfill-library
+[cc-vanilla-js]: https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX
+[cc-jsdoc]: https://www.youtube.com/watch?v=YK-GurROGIg
+[cc-scss]: https://www.youtube.com/watch?v=nu5mdN2JIwM
+[cc-nodejs]: https://www.youtube.com/watch?v=fBNz5xF-Kx4
+[cc-npm]: https://www.youtube.com/watch?v=jHDhaSSKmB0
+[cc-yarn]: https://www.youtube.com/watch?v=g9_6KmiBISk
+[cc-gulp]: https://www.youtube.com/watch?v=1rw9MfIleEg
