@@ -4,7 +4,7 @@
 
 I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). This repository serves as a library of helper functions and boilerplate code written with native javascript and browser APIs instead of major frameworks and libraries.
 
-**On this repo**
+### On this repo
 
 - `boilerplate-*` are code templates to get started with various patterns and practices
 - `helper-*` are micro-libraries written for various needs and wants which I typically either copy & paste as and when needed
@@ -12,7 +12,7 @@ I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). This re
 
 > [Read these blikies on javascript to learn a bit more about this repository's work in use][js-bliki].
 
-### Feedback
+## Feedback
 
 If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.
 
@@ -27,13 +27,13 @@ Nowadays, vanilla javascript already cover most of it anyways. And, polyfills ar
 - [You Don't Need Lodash and Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme) shows what vanilla javascript methods and techniques to use instead
 - [Financial Times polyfill repository](https://github.com/Financial-Times/polyfill-library) is good for polyfill code snippets
 
-**A few crash courses**
+### A few crash courses
 
 - [Vanilla javascript crash courses](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) has 10+ videos on JS and DOM manipulation
 - [Documenting your javascript crash course](https://www.youtube.com/watch?v=YK-GurROGIg) demos on JSCode
 - [Scss crash course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
 
-**A couple of more**
+### A couple of more
 
 - [Node JS crash course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
 - [NPM crash course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
