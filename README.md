@@ -2,18 +2,43 @@
 
 [<img align="right" alt="JavaScript" width="128rem" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  />][all-things-js]
 
-I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). I've built a few websites on it, as well as a few libraries and still has a long way to go to. This repository serves as a library of commonly used boilerplate code for all things vanilla javascript.
-
-> [Read this article to learn more about this repository works][vanilla-js-bliki].
+I'm a huge nerd :nerd_face: of [vanilla javascript][all-things-js] (JS). This repository serves as a library of helper functions and boilerplate code written with native javascript and browser APIs instead of major frameworks and libraries.
 
 **On this repo**
 
-- `$qsa.js` is to alias the `document.querySelectorAll` to traverse thru DOM elements
-- `$.js` is a micro-library for manipulating DOM as angular's `$q`
-- `format-string.js` is to replace strings as C# `String.Format()`
-- `snake-case.js` is to style strings to 'snake_case' as Lodash `_.snakeCase()`
-- `mixin.js` is to allow `prototype` option for helper functions as Lodash `_.mixin()`
-- `script-data-src.js` is magic code to replace `<script>` tags with attribute `data-src` with new `HTMLScripElement`
+- `boilerplate-*` are code templates to get started with various patterns and practices
+- `helper-*` are micro-libraries written for various needs and wants which I typically either copy & paste as and when needed
+- `example-*` are partials mixed and matched in order to demonstrate a bit more complexed implementations
+
+> [Read these blikies on javascript to learn a bit more about this repository's work in use][js-bliki].
+
+### Feedback
+
+If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.
+
+- [Submit bugs and request code snippets][new-issue]
+- [Upvote popular code snippets][openned-issues]
+- [Review source code and documentation][pull-requests]
+
+## Learning Resources
+
+Nowadays, vanilla javascript already cover most of it anyways. And, polyfills are there whenever some random feature doesn't support on the browser.
+
+- [You Don't Need Lodash and Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme) shows what vanilla javascript methods and techniques to use instead
+- [Financial Times polyfill repository](https://github.com/Financial-Times/polyfill-library) is good for polyfill code snippets
+
+**A few crash courses**
+
+- [Vanilla javascript crash courses](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) has 10+ videos on JS and DOM manipulation
+- [Documenting your javascript crash course](https://www.youtube.com/watch?v=YK-GurROGIg) demos on JSCode
+- [Scss crash course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
+
+**A couple of more**
+
+- [Node JS crash course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
+- [NPM crash course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
+- [Yarn package manager crash course](https://www.youtube.com/watch?v=g9_6KmiBISk)
+- [Gulp task runner crash course](https://www.youtube.com/watch?v=1rw9MfIleEg)
 
 ## Contributing
 
@@ -21,7 +46,12 @@ If you were wondering, I'd be happy to have more code snippets here. Have a sugg
 
 ## License
 
-Licensed under [MIT](LICENSE)
+Licensed under [MIT][lic]
 
+[lic]: LICENSE
 [all-things-js]: https://github.com/topics/javascript?l=javascript
-[vanilla-js-bliki]: https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets
+[ama]: https://github.com/kosalanuwan/ama/#readme
+[js-bliki]: https://kosalanuwan.github.io/bliki/#javascript
+[new-ssue]: https://github.com/kosalanuwan/vanilla-js-snippets/issues/new
+[openned-issues]: https://github.com/kosalanuwan/vanilla-js-snippets/issues
+[pull-requests]: https://github.com/kosalanuwan/vanilla-js-snippets/pulls
