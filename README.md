@@ -29,6 +29,7 @@ Nowadays, vanilla javascript already cover most of it anyways. And, polyfills ar
 
 ### A few crash courses
 
+- [All things javascript channel][cc-all-things-js] is a great source to get started
 - [Vanilla javascript crash courses][cc-vanilla-js] has 10+ videos on JS and DOM manipulation
 - [Documenting your javascript crash course][cc-jsdoc] demos on JSCode
 - [Scss crash course][cc-scss]
@@ -57,6 +58,7 @@ Licensed under [MIT][lic]
 [pull-requests]: https://github.com/kosalanuwan/vanilla-js-snippets/pulls
 [learning-yagni-repo]: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme
 [learning-polyfills-repo]: https://github.com/Financial-Times/polyfill-library
+[cc-all-things-js]: https://www.youtube.com/c/AllThingsJavaScriptLLC/playlists
 [cc-vanilla-js]: https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX
 [cc-jsdoc]: https://www.youtube.com/watch?v=YK-GurROGIg
 [cc-scss]: https://www.youtube.com/watch?v=nu5mdN2JIwM
