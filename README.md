@@ -12,15 +12,7 @@ I'm a huge nerd :nerd_face: of [vanilla javascript (JS)][all-things-js]. This re
 
 > [Read these blikies on javascript to learn a bit more about this repository's work in use][js-bliki].
 
-## Feedback
-
-If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.
-
-- [Submit bugs and request code snippets][new-issue]
-- [Upvote popular code snippets][openned-issues]
-- [Review source code and documentation][pull-requests]
-
-### Getting Started
+## Getting Started
 
 For minimum requirements, you will need followings:
 
@@ -28,9 +20,17 @@ For minimum requirements, you will need followings:
 - A development local server, [like Live Server for VS Code][cc-liveserver], and
 - A web browser, [like Brave][download-brave] as for javascript playground
 
-### Run from Source
+## Run from Source
 
 [You'll want to copy the source and paste it on the browser console, then play around with those methods by calling it.][cc-dom-select] 
+
+## Feedback
+
+If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.
+
+- [Submit bugs and request code snippets][new-issue]
+- [Upvote popular code snippets][openned-issues]
+- [Review source code and documentation][pull-requests]
 
 ## Learning Resources
 
