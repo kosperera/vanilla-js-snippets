@@ -1,4 +1,4 @@
-# Select DOM
+# DOM Selector
 
 A mix and match of a collection of helper functions for DOM manipulation, bundled into `global` namespace or `window` object. In other words, think of it as a stripped-down version of jQuery library :nerd_face:!
 
