@@ -20,6 +20,18 @@ If you were wondering, [ask questions and problems on GitHub][ama]. It is as eas
 - [Upvote popular code snippets][openned-issues]
 - [Review source code and documentation][pull-requests]
 
+### Getting Started
+
+For minimum requirements, you will need followings:
+
+- An editor, [like VS Code][download-vscode]
+- A development local server, [like Live Server for VS Code][cc-liveserver], and
+- A web browser, [like Brave][download-brave] as for javascript playground
+
+### Run from Source
+
+[You'll want to copy the source and paste it on the browser console, then play around with those methods by calling it.][cc-dom-select] 
+
 ## Learning Resources
 
 Nowadays, vanilla javascript already cover most of it anyways. And, polyfills are there whenever some random feature doesn't support on the browser.
@@ -58,6 +70,8 @@ Licensed under [MIT][lic]
 [pull-requests]: https://github.com/kosalanuwan/vanilla-js-snippets/pulls
 [learning-yagni-repo]: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme
 [learning-polyfills-repo]: https://github.com/Financial-Times/polyfill-library
+[cc-liveserver]: https://www.youtube.com/watch?v=WzE0yqwbdgU
+[cc-dom-select]: https://www.youtube.com/watch?v=f-yLYjvPiLE
 [cc-all-things-js]: https://www.youtube.com/c/AllThingsJavaScriptLLC/playlists
 [cc-vanilla-js]: https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX
 [cc-jsdoc]: https://www.youtube.com/watch?v=YK-GurROGIg
@@ -66,3 +80,5 @@ Licensed under [MIT][lic]
 [cc-npm]: https://www.youtube.com/watch?v=jHDhaSSKmB0
 [cc-yarn]: https://www.youtube.com/watch?v=g9_6KmiBISk
 [cc-gulp]: https://www.youtube.com/watch?v=1rw9MfIleEg
+[download-vscode]: https://code.visualstudio.com
+[download-brave]: https://brave.com/latest
