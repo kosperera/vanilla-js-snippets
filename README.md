@@ -10,15 +10,15 @@ I'm a huge nerd :nerd_face: of [vanilla javascript (JS)][all-things-js]. This re
 - `helper-*` are micro-libraries written for various needs and wants which I typically either copy & paste as and when needed
 - `example-*` are partials mixed and matched in order to demonstrate a bit more complexed implementations
 
-> [Read these blikies on javascript to learn a bit more about this repository's work in use][js-bliki].
+> [Read these bliki posts to learn a bit more about this repository's work in use.][js-bliki]
 
 ## Getting Started
 
 For minimum requirements, you will need followings:
 
-- An editor, [like VS Code][download-vscode]
-- A development local server, [like Live Server for VS Code][cc-liveserver], and
-- A web browser, [like Brave][download-brave] as for javascript playground
+- An editor, like [VS Code][download-vscode]
+- A development local server, like [Live Server for VS Code][cc-liveserver], and
+- A web browser, like [Brave][download-brave] as for javascript playground
 
 ## Run from Source
 

@@ -9,15 +9,15 @@ A mix and match of a collection of helper functions found in utility libraries, 
 - `snake-case` for styling strings to `snake_case` as Lodash `_.snakeCase()` does
 - `string-format` is to replace strings as C# `String.Format()` does
 
-> [Read these blikies on javascript to learn a bit more about this repository's work in use][js-bliki].
+> [Read these bliki posts to learn a bit more about this repository's work in use][js-bliki].
 
-### Getting Started
+### Getting started
 
-For minimum requirements, [you will want to have a look at this link.][getting-started]
+For minimum requirements, [you will want to refer this link.][getting-started]
 
-### Run from Source
+### Run from source
 
-[You'll want to have a look at this link][run-from-source] 
+[You'll want to have a look at this link.][run-from-source]
 
 [js-bliki]: https://kosalanuwan.github.io/bliki/#javascript
 [getting-started]: https://github.com/kosalanuwan/vanilla-js-snippets/#getting-started
