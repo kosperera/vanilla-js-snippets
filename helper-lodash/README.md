@@ -5,9 +5,11 @@ A mix and match of a collection of helper functions found in utility libraries, 
 
 ### On this repo
 
-- `mixin` allows `prototype` option for helper function as `_.mixin()` does
-- `snake-case` for styling strings to `snake_case` as Lodash `_.snakeCase()` does
-- `string-format` is to replace strings as C# `String.Format()` does
+- `_.format` is to replace strings as C# `String.Format()` does
+- `_.kebabCase` for styling strings to `kebab-case` as Underscore does
+- `_.mixin` allows `prototype` option for helper function as Lodash does
+- `_.snakeCase` for styling strings to `snake_case` as Lodash does
+- `lodash-string.js` enables the prototype option for string literals to use the nano-library.
 
 > [Read these bliki posts to learn a bit more about this repository's work in use][js-bliki].
 
