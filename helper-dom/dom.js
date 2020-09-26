@@ -4,19 +4,6 @@
  * @param {Document} document - The DOM.
  *
  * @license MIT
- *
- * @example
- * ```html
- * <span>this is an example!</span>
- * ```
- * ```js
- * $('span');
- * ```
- *
- * @example
- * ```js
- * $$('ul').each(console.log);
- * ```
  */
 ; (function (window, document, undefined) {
     
@@ -29,6 +16,8 @@
          * @returns {Element|undefined|null}
          */
         Element.prototype.parent = function (tagName) {
+            console.assert(tagName && typeof tagName === 'string', '{tagName} must be a type of {String}.');
+
             return window.$parent(this, tagName);
         };
     })();
@@ -44,6 +33,9 @@
          * @returns {Element}
          */
         Element.prototype.on = function (type, listener, useCapture) {
+            console.assert(type && typeof type === 'string', '{type} must be a type of {String}.');
+            console.assert(listener && typeof listener === 'function', '{listener} must be a type of {Function}.');
+
             this.addEventListener(type, listener, !!useCapture);
 
             return this;
@@ -59,6 +51,8 @@
          * @returns {NodeList}
          */
         NodeList.prototype.each = function (callbackFn) {
+            console.assert(callbackFn && typeof callbackFn === 'function', '{callbackFn} must be a type of {Function}.');
+
             Array.prototype.forEach.call(this, callbackFn);
 
             return this;
@@ -74,6 +68,9 @@
          * @returns 
          */
         NodeList.prototype.on = function (type, listener) {
+            console.assert(type && typeof type === 'string', '{type} must be a type of {String}.');
+            console.assert(listener && typeof listener === 'function', '{listener} must be a type of {Function}.');
+
             this.each(function (target) {
                 window.$on(target, type, listener);
             });
@@ -91,8 +88,8 @@
          * @returns {NodeList}
          */
         Window.prototype.$each = function (nodeList, callbackFn) {
-            console.assert(nodeList instanceof NodeList);
-            console.assert(typeof callbackFn === 'function');
+            console.assert(nodeList && nodeList instanceof NodeList, '{nodeList} must be an instance of {NodeList}.');
+            console.assert(callbackFn && typeof callbackFn === 'function', '{callbackFn} must be a type of {Function}.');
 
             return nodeList.each(callbackFn);
         };
@@ -108,8 +105,8 @@
          * @returns {Element}
          */
         Window.prototype.$on = function (target, type, listener) {
-            console.assert(target instanceof Element);
-            console.assert(typeof listener === 'function');
+            console.assert(target && target instanceof Element, '{target} must be an instance of {Element}.');
+            console.assert(listener && typeof listener === 'function', '{listener} must be a type of {Function}.');
 
             var useCapture = ['blur', 'focus'].indexOf(type) > -1;
 
@@ -127,7 +124,7 @@
          * @returns {Element|undefined|null}
          */
         Window.prototype.$parent = function (element, tagName) {
-            console.assert(element instanceof Element);
+            console.assert(element && element instanceof Element, '{element} must be an instance of {Element}.');
 
             if (!element.parentNode) return;
             if (!tagName || element.parentNode.tagName.toLowerCase() === tagName.toLowerCase()) return element.parentNode;
@@ -146,8 +143,8 @@
          * @returns {NodeList}
          */
         Window.prototype.$$ = function (selector, scope) {
-            console.assert(selector && selector.length > 0);
-            if (scope) console.assert(scope instanceof Element);
+            console.assert(selector && selector.length > 0, '{selector} must be a string literal and cannot be empty.');
+            if (scope) console.assert(scope instanceof Element, '{scope} must be an instance of {Element}.');
 
             return (scope || document).querySelectorAll(selector);
         };
@@ -163,8 +160,8 @@
          * @returns {Element|undefined|null}
          */
         Window.prototype.$ = function (selector, scope) {
-            console.assert(selector && selector.length > 0);
-            if (scope) console.assert(scope instanceof Element);
+            console.assert(selector && selector.length > 0, '{selector} must be a string literal and cannot be empty.');
+            if (scope) console.assert(scope instanceof Element, '{scope} must be an instance of {Element}.');
 
             return (scope || document).querySelector(selector);
         };
