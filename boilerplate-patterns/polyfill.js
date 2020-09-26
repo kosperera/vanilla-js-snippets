@@ -4,16 +4,6 @@
  * @param {Document} document - The DOM.
  *
  * @license MIT
- *
- * @example
- * ```js
- * $('span');
- * ```
- *
- * @example
- * ```html
- * <span>this is an example!</span>
- * ```
  */
 ; (function (window, document, undefined) {
 
