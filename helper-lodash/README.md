@@ -2,7 +2,6 @@
 
 A mix and match of a collection of helper functions found in utility libraries, bundled into `global` namespace. In other words, think of it as a stripped-down version of Lodash and Underscore.js libraries :nerd_face:!
 
-
 ### On this repo
 
 - `_.format` is to replace strings as C# `String.Format()` does
