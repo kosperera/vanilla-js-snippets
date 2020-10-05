@@ -8,6 +8,7 @@ A mix and match of a collection of helper functions found in utility libraries, 
 - `_.kebabCase` for styling strings to `kebab-case` as Underscore does
 - `_.mixin` allows `prototype` option for helper function as Lodash does
 - `_.snakeCase` for styling strings to `snake_case` as Lodash does
+- `_.isblank` for determine whether the text is empty or whitespace as Underscore-string does
 - `lodash-string.js` enables the prototype option for string literals to use the nano-library.
 
 > [Read these bliki posts to learn a bit more about this repository's work in use][js-bliki].

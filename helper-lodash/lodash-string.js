@@ -20,4 +20,8 @@
         _.mixin(_.kebabCase, String, 'toKebabCase');
     })();
 
+    if (!String.prototype.isblank) (function () {
+        _.mixin(_.isblank, String);
+    })();
+
 })(_ || window._);

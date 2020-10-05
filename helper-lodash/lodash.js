@@ -145,7 +145,7 @@
             var args = Array.prototype.slice.call(arguments).concat('_');
 
             return _.dasherize.apply(this, args);
-        }
+        };
     })();
 
     /**
@@ -161,7 +161,27 @@
             var args = Array.prototype.slice.call(arguments).concat('-');
 
             return _.dasherize.apply(this, args);
-        }
+        };
+    })();
+
+
+    /**
+     * Determines a text is empty or whitespace.
+     * @param {String} text The text assert.
+     */
+    function _isblank(text) {
+
+        return (/^\s*$/).test('' + (text || ''));
+    }
+
+    /**
+     * Polyfill pattern to provide an instance of {@link _isblank}.
+     * Expose for the global as `_.isblank()`.
+     */
+    if (!_.isblank) (function () {
+        _.isblank = function isblank() {
+            return _isblank.apply(this, arguments);
+        };
     })();
 
 })(_ = window._ || {});
