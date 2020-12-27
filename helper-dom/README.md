@@ -10,16 +10,18 @@ A mix and match of a collection of helper functions to select and manipulate the
 - `$parent()` is a traverser to pick the kinda parent
 - `$each()` is a traverser to perform an action for every item in the collection
 
-> [Read these bliki posts to learn a bit more about this repository's work in use][js-bliki].
+> [Read these journal notes to learn a bit more about this repository's work in use][journal-note-dom-lib].
+
+[journal-note-dom-lib]: https://kosalanuwan.github.io/journal/vanilla-js/dom-manipulation-library/
 
 ### Getting started
 
 For minimum requirements, [you will want to refer this link.][getting-started]
 
+[getting-started]: https://github.com/kosalanuwan/vanilla-js-snippets/#getting-started
+
 ### Run from source
 
 [You'll want to have a look at this link.][run-from-source] 
 
-[js-bliki]: https://kosalanuwan.github.io/bliki/#javascript
-[getting-started]: https://github.com/kosalanuwan/vanilla-js-snippets/#getting-started
 [run-from-source]: https://github.com/kosalanuwan/vanilla-js-snippets/#run-from-source
