@@ -4,36 +4,41 @@
 
 I'm a huge nerd :nerd_face: of [vanilla javascript (JS)][all-things-js]. This repository serves as a library of helper functions and boilerplate code written with native javascript and browser APIs instead of major frameworks and libraries.
 
+[Read the journal notes to learn more.][journal-notes].
+
 [all-things-js]: https://github.com/topics/javascript?l=javascript
+[journal-notes]: https://kosalanuwan.github.io/journal/javascript/vanilla-js-snippets/
 
 ### On this repo
+- `boilerplate-*` are code templates to get started with various patterns and practices.
+- `helper-*` are nano-libraries written for various needs and wants which I typically either copy & paste as and when needed.
+- `examples/try-*` are partials mixed and matched in order to demonstrate a bit more complexed implementations.
 
-- `boilerplate-*` are code templates to get started with various patterns and practices
-- `helper-*` are micro-libraries written for various needs and wants which I typically either copy & paste as and when needed
-- `example-*` are partials mixed and matched in order to demonstrate a bit more complexed implementations
-
-> [Read these journal notes to learn a bit more about this repository's work in use][journal-notes].
-
-[journal-notes]: https://kosalanuwan.github.io/journal/
 ## Getting Started
-
 For minimum requirements, you will need the followings:
 
-- An editor, like [VS Code][download-vscode]
-- A development local server, like [Live Server for VS Code][cc-liveserver], and
+- [VS Code][download-vscode] with [Remote - Container][download-remote-container-ext] extension.
+- [Docker Desktop][download-docker-desktop]
 - A web browser, like [Brave][download-brave] as for javascript playground
 
-[cc-liveserver]: https://www.youtube.com/watch?v=WzE0yqwbdgU
 [download-vscode]: https://code.visualstudio.com
+[download-remote-container-ext]: https://
+[download-docker-desktop]: https://
 [download-brave]: https://brave.com/latest
+
 ## Run from Source
 
-[You'll want to copy the source and paste it on the browser console, then play around with those methods by calling it.][cc-dom-select] 
+With VS Code:
+- Run command: Open with Live  Server, or
+- Click `Go Live` on the status bar
 
-[cc-dom-select]: https://www.youtube.com/watch?v=f-yLYjvPiLE
+Spin up your favorite browser to visit [localhost:5505/examples/](http://localhost:5505/eamples/)
+
+[Read the journal notes to learn more.][journal-notes].
+
 ## Feedback
 
-If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.
+If you were wondering, [ask questions and problems on GitHub][ama]. It is as easy as creating a new discussion. If not, here are the ways you can provide feedback.
 
 - [Submit bugs and request code snippets][new-issue]
 - [Upvote popular code snippets][openned-issues]
