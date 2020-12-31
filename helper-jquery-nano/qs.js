@@ -1,5 +1,5 @@
 /**
- * A micro-library for DOM manipulation as jQuery.
+ * A nano-library for DOM manipulation as jQuery.
  * @param {Window} window - The Global or the Window namespace.
  * @param {Document} document - The DOM.
  *

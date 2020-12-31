@@ -13,7 +13,7 @@ A mix and match of a collection of helper functions found in utility libraries, 
 
 > [Read these journal notes to learn a bit more about this repository's work in use][journal-note-utility-belt].
 
-[journal-note-utility-belt]: https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library
+[journal-note-utility-belt]: https://kosalanuwan.github.io/journal/javascript/js-utility-library
 
 ### Getting started
 

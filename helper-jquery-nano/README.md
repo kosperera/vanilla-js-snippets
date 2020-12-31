@@ -12,7 +12,7 @@ A mix and match of a collection of helper functions to select and manipulate the
 
 > [Read these journal notes to learn a bit more about this repository's work in use][journal-note-dom-lib].
 
-[journal-note-dom-lib]: https://kosalanuwan.github.io/journal/vanilla-js/dom-manipulation-library/
+[journal-note-dom-lib]: https://kosalanuwan.github.io/journal/javascript/dom-manipulation-library/
 
 ### Getting started
 

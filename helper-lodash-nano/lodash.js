@@ -1,5 +1,5 @@
 /**
- * Nano-lodash library for string manipulations.
+ * A utility belt nano-library as Lodash.
  * @param {Object} _ - Namespace or the module as the root.
  * 
  * @license MIT

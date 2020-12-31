@@ -1,5 +1,5 @@
 /**
- * Allows prototype options for nano-lodash library, mixing with {@link String} types.
+ * Enabling prototype options for lodash nano-library, mixing with {@link String} types.
  * @param {Object} _ - Namespace or the module as the root.
  * 
  * @license MIT
