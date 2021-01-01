@@ -1,5 +1,5 @@
 {
-    "name": "Node.js",
+    "name": "vanilla-js",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspace",
@@ -32,6 +32,7 @@
         "christian-kohler.npm-intellisense",
         "redhat.vscode-yaml",
         "eg2.vscode-npm-script",
+        // Host
         "ritwickdey.liveserver",
         "ritwickdey.live-sass"
     ],
