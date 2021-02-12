@@ -10,9 +10,9 @@ A mix and match of a collection of helper functions to select and manipulate the
 - `$parent()` is a traverser to pick the kinda parent
 - `$each()` is a traverser to perform an action for every item in the collection
 
-> [Read these journal notes to learn a bit more about this repository's work in use][journal-note-dom-lib].
+> [Read the journal notes to learn a bit more about this repository's work in use][journal-note-jq-lib].
 
-[journal-note-dom-lib]: https://kosalanuwan.github.io/journal/javascript/dom-manipulation-library/
+[journal-note-jq-lib]: https://kosalanuwan.github.io/journal/javascript/jquery-dom-manipulation-library/
 
 ### Getting started
 

@@ -11,9 +11,9 @@ A mix and match of a collection of helper functions found in utility libraries, 
 - `_.isblank` for determine whether the text is empty or whitespace as Underscore-string does
 - `lodash-string.js` enables the prototype option for string literals to use the nano-library.
 
-> [Read these journal notes to learn a bit more about this repository's work in use][journal-note-utility-belt].
+> [Read this journal notes to learn a bit more about this repository's work in use][journal-note-utility-belt].
 
-[journal-note-utility-belt]: https://kosalanuwan.github.io/journal/javascript/js-utility-library
+[journal-note-utility-belt]: https://kosalanuwan.github.io/journal/javascript/lodash-utility-belt-library/
 
 ### Getting started
 

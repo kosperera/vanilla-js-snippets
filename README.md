@@ -29,7 +29,7 @@ For minimum requirements, you will need the followings:
 ## Run from Source
 
 With VS Code:
-- Run command: Open with Live  Server, or
+- Run command: Open with Live Server, or
 - Click `Go Live` on the status bar
 
 Spin up your favorite browser to visit [localhost:5505/examples/](http://localhost:5505/eamples/)
