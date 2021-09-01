@@ -18,6 +18,7 @@
         // Remote
         "ms-azuretools.vscode-docker",
         // Editor
+        "ms-edgedevtools.vscode-edge-devtools",
         "editorconfig.editorconfig",
         "ms-vscode.wordcount",
         "esbenp.prettier-vscode",
