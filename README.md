@@ -53,10 +53,11 @@ If you were wondering, [ask questions and problems on GitHub][ama]. It is as eas
 
 Nowadays, vanilla javascript already cover most of it anyways. And, polyfills are there whenever some random feature doesn't support on the browser.
 
-- [You Don't Need Lodash and Underscore][learning-yagni-repo] shows what vanilla javascript methods and techniques to use instead
-- [Financial Times polyfill repository][learning-polyfills-repo] is good for polyfill code snippets
-- https://github.com/kosalanuwan/journal/discussions/30
+- [You Don't Need Lodash and Underscore][learning-yagni-repo] shows what vanilla javascript methods and techniques to use instead.
+- [Financial Times polyfill repository][learning-polyfills-repo] is good for polyfill code snippets.
+- [Writing vanilla JS snippets and examples #30][journal-discussion] for a curated list of online resources referred on these snippets.
 
+[journal-discussion]: https://github.com/kosalanuwan/journal/discussions/30
 [learning-yagni-repo]: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/#readme
 [learning-polyfills-repo]: https://github.com/Financial-Times/polyfill-library
 
